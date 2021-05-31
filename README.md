@@ -47,6 +47,7 @@ Results are saved in `/data` in `.dat` files.
     * Modify the relevant parameters in lines 7-13 of `dim2.c`,
       expecially the **path** where the results will be saved in and the **lattice spacing**
     * Compile `dim2.c` in an executable called `dim2c` with
+    
       ```bash
       $ gcc dim2.c -o dim2c -lm
       ```
@@ -60,6 +61,7 @@ Results are saved in `/data` in `.dat` files.
     * Modify the relevant parameters in lines 11-19 of `dim2.cu`,
       expecially the **path** where the results will be saved in and the **lattice spacing**
     * Compile `dim2.cu` in an executable called `dim2cu` with
+    
       ```bash
       $ nvcc dim2.cu -o dim2cu -lcurand
       ```
@@ -88,7 +90,7 @@ should result in something like this:
 <img src="figures/chains.jpg" width="480">
 
 Computing suscettibility, specific heat and magnetization varying the temperature
-(β~1/T) sould result instead in something like this:
+(β~1/T) should result instead in something like this:
 
 <img src="figures/dim2.png" width="480">
 
